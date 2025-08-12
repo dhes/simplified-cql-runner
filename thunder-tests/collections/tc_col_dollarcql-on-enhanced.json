@@ -1,0 +1,38 @@
+{
+    "_id": "e4224a57-4b9a-4e96-9f1a-699f842c415b",
+    "colName": "$cql on enhanced",
+    "created": "2025-08-03T23:16:04.280Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "638ccdcb-f5b7-4bb9-99b7-fe66144ae704",
+            "colId": "e4224a57-4b9a-4e96-9f1a-699f842c415b",
+            "containerId": "",
+            "name": "welcome",
+            "url": "",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-08-03T23:17:04.281Z",
+            "modified": "2025-08-03T23:20:09.355Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-example.json"
+            }
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "options": {
+            "baseUrl": "https://enhanced.hopena.info/fhir/$cql"
+        }
+    }
+}

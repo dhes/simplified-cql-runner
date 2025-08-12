@@ -134,5 +134,8 @@
         }
       }
     }},
-  "defaultProject": "cql-runner"
+  "defaultProject": "cql-runner",
+  "cli": {
+    "analytics": false
+  }
 }

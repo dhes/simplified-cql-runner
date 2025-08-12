@@ -1,0 +1,110 @@
+{
+    "_id": "72a444cd-5420-4270-9c08-4138083fa84d",
+    "colName": "$cql on localhost",
+    "created": "2025-07-29T01:34:48.434Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "80748c5a-e647-486e-afe5-cccbf6e4cff9",
+            "colId": "72a444cd-5420-4270-9c08-4138083fa84d",
+            "containerId": "",
+            "name": "welcome",
+            "url": "",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-07-29T01:35:52.293Z",
+            "modified": "2025-07-29T22:59:10.741Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-example.json"
+            }
+        },
+        {
+            "_id": "b0f71319-2146-4d62-a338-d7bf2e271a3c",
+            "colId": "72a444cd-5420-4270-9c08-4138083fa84d",
+            "containerId": "",
+            "name": "welcome multiply commented out",
+            "url": "",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-07-29T23:01:04.672Z",
+            "modified": "2025-07-29T23:02:19.620Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-mult-commented.json"
+            }
+        },
+        {
+            "_id": "5ddec26b-383c-4dc7-9611-b5e622aff430",
+            "colId": "72a444cd-5420-4270-9c08-4138083fa84d",
+            "containerId": "",
+            "name": "welcome message commented out",
+            "url": "",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-07-29T23:03:08.129Z",
+            "modified": "2025-07-29T23:04:09.050Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-message-commented-out.json"
+            }
+        },
+        {
+            "_id": "843ad575-cc36-4195-8755-80378bee57e7",
+            "colId": "72a444cd-5420-4270-9c08-4138083fa84d",
+            "containerId": "",
+            "name": "welcome useserverdata true",
+            "url": "",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2025-07-29T23:10:09.076Z",
+            "modified": "2025-07-29T23:10:30.429Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-example-useserverdata-true.json"
+            }
+        },
+        {
+            "_id": "ea57ab94-d487-4a94-9eee-9ca0a2dd6b08",
+            "colId": "72a444cd-5420-4270-9c08-4138083fa84d",
+            "containerId": "",
+            "name": "welcome remove options",
+            "url": "",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-07-29T23:28:50.362Z",
+            "modified": "2025-07-29T23:29:19.236Z",
+            "headers": [],
+            "body": {
+                "type": "binary",
+                "raw": "",
+                "form": [],
+                "binary": "../scratch/welcome-example-useserverdata-true-remove-blank-config-options.json"
+            }
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "options": {
+            "baseUrl": "http://localhost:8080/fhir/$cql"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "95f587ae-4558-411d-9903-d6ecc680bbec",
+    "colName": "dataphoria fhir",
+    "created": "2025-08-04T00:23:54.820Z",
+    "sortNum": 30000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fd50235a-0d67-43f5-822d-313e91c6bcf5",
+            "colId": "95f587ae-4558-411d-9903-d6ecc680bbec",
+            "containerId": "",
+            "name": "Patient",
+            "url": "/Patient/P48",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-08-04T00:26:00.364Z",
+            "modified": "2025-08-04T00:27:10.245Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "options": {
+            "baseUrl": "https://cloud.alphora.com/sandbox/r4/cqm/fhir"
+        }
+    }
+}
