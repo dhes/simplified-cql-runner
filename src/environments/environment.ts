@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  engineUri: 'https://cloud.alphora.com/sandbox/r4/cqm/fhir/$cql',
-  terminologyUri: 'https://cloud.alphora.com/sandbox/r4/cqm/fhir',
-  dataSourceUri: 'https://cloud.alphora.com/sandbox/r4/cqm/fhir',
-  librarySourceUri: 'https://cloud.alphora.com/sandbox/r4/cqm/fhir',
-  patientId: 'P48'
+  engineUri: 'https://enhanced.hopena.info/fhir/$cql',
+  terminologyUri: 'https://enhanced.hopena.info/fhir',
+  dataSourceUri: 'https://enhanced.hopena.info/fhir',
+  librarySourceUri: 'https://enhanced.hopena.info/fhir',
+  patientId: 'simple-test'
 };
