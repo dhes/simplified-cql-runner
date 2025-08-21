@@ -29,6 +29,7 @@ define CqlDateTimeHour: DateTime(2012, 4, 4, 12)
 define CqlDateTimeMinute: DateTime(2012, 4, 4, 12, 30)
 define CqlDateTimeSecond: DateTime(2012, 4, 4, 12, 30, 45)
 define CqlDateTimeMilli: DateTime(2012, 4, 4, 12, 30, 45, 250)
+define CqlDateTimeZeroOffset: DateTime(2012, 4, 4, 12, 30, 45, 250, 0.0)
 define CqlDateTimeOffset: DateTime(2012, 4, 4, 12, 30, 45, 250, -7.0)
 define CqlDateTimeLiteralYear: @2012
 define CqlDateTimeLiteralMonth: @2012-04
@@ -37,7 +38,14 @@ define CqlDateTimeLiteralHour: @2012-04-04T12
 define CqlDateTimeLiteralMinute: @2012-04-04T12:30
 define CqlDateTimeLiteralSecond: @2012-04-04T12:30:45
 define CqlDateTimeLiteralMilli: @2012-04-04T12:30:45.250
-define CqlDateTimeLiteralOffset: @2012-04-04T12:30:45.250Z
+define CqlDateTimeLiteralZeroOffset: @2012-04-04T12:30:45.250-00:00
+define CqlDateTimeLiteralOffset: @2012-04-04T12:30:45.250-07:00
+define CqlDateTimeLiteralZulu: @2012-04-04T12:30:45.250Z
+
+// Runtime evaluation
+define Now: Now()
+define Today: Today()
+define TimeOfDay: TimeOfDay()
 
 /*
   Time

@@ -19,7 +19,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { RunnerComponent } from './components/runner/runner.component';
 import { ConfigComponent } from './components/config/config.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CodeMirrorDirective } from './shared/code-mirror/code-mirror.directive';
 import { MenuComponent } from './components/menu/menu.component';
@@ -33,7 +32,6 @@ import { routing } from './app-routing.module';
     AppComponent,
     RunnerComponent,
     ConfigComponent,
-    FooterComponent,
     HeaderComponent,
     CodeMirrorDirective,
     MenuComponent

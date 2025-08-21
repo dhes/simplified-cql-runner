@@ -1,0 +1,6 @@
+Expression,expression,type,server console,parameter - before,parameter - after
+CqlDateTimeHour,"DateTime(2012, 4, 4, 12)",valueDateTime,2012-04-04T12,2012-04-04,2012-04-04T12:00-10:00
+CqlDateTimeLiteralHour,@2012-04-04T12,valueDateTime,2012-04-04T12,2012-04-04,2012-04-04T12:00-10:00
+CqlDateTimeMinute,"DateTime(2012, 4, 4, 12, 30)",valueDateTime,2012-04-04T12:30,2012-04-04,2012-04-04T12:30-10:00
+CqlDateTimeLiteralMinute,@2012-04-04T12:30,valueDateTime,2012-04-04T12:30,2012-04-04,2012-04-04T12:30-10:00
+ImplicitTime,"DateTime(2025, 8, 18, 15, 30)",valueDateTime,2025-08-18T15:30,2025-08-18,2025-08-18T15:30-10:00
