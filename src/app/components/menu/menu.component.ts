@@ -23,7 +23,7 @@ export class MenuComponent {
 
   openDialog() {
     const dialogRef = this.dialog.open(ConfigComponent, {
-      height: '750px',
+      height: '400px',
       width: '775px'
     });
 

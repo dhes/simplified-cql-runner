@@ -20,7 +20,8 @@ export class ConfigComponent {
 
   // TODO: Move to environmental config
   engineUrlOptions = [
-    'https://cloud.alphora.com/sandbox/r4/cqm/fhir/$cql',
+    'https://opioid-sandbox.cqframework.org/cdc/opioid-cds-r4/cds-service/fhir/$cql',
+		'https://enhanced.hopena.info/fhir/$cql',
   ];
 
   // fhirUrlOptions = [
